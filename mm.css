@@ -1,0 +1,15 @@
+button:link{
+    color: blue;
+}
+button:visited{
+    color: brown;
+}
+button:hover{
+    color: green;
+}
+button:active{
+color: blueviolet;
+}
+button{
+    background-color:yellow;
+}
