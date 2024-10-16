@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 50px;
+            width: 50px;
+            border-radius: 360px;
+            background-color: brown;
+            animation-name:master;
+            position: relative;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes master{
+            0%{
+                background-color: green;
+
+            }
+            15%{
+                top: 50px;
+            }
+            25%{
+                background-color: blue;top:100px;
+            }
+            35%{
+                top: 150px;
+            }
+            50%{
+                background-color: blue;top:200px;
+            }
+            65%{
+                top: 250px;
+            }
+            75%{
+                background-color: blue;top:300px;
+            }
+            85%{
+                top:350px ;
+            }
+            90%{
+                top: 500px;
+            }
+            95%{
+                top: 300px;
+            }
+            97%{
+                top: 400px;
+            }
+            100%{
+                background-color: green;top:400px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+</body>
+</html>
